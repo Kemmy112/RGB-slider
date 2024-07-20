@@ -35,3 +35,43 @@ body{
 #setting{
     margin-left: 40%;
 }
+
+@media only screen and (min-width: 350px) and (max-width:450px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: #000;
+    }
+    
+    .container{
+        /* outline: 2px solid red; */
+        width: 80%;
+        position: absolute;
+        top: 30%;
+        left: 9%;
+        border-radius: 5px;
+        background-color: #ffebcd;
+        padding: 20px;
+    }
+    
+    .container .wrap{
+        width: 100%;
+        /* margin-left: 10%; */
+        padding: 20px 0px;
+        display: grid;
+       justify-content: center;
+    }
+    
+    .container .wrap input[type= "range"]{
+        width: 200px;
+        /* outline: 2px solid #000; */
+    }
+    
+    #setting{
+        margin-left: 40%;
+    }
+}
